@@ -30,4 +30,13 @@ To compile, always go to the main "src" folder and run
     
 
     
+Details
+====
+
+    git-cms-addpkg  Configuration/PyReleaseValidation/
+    git-cms-addpkg  SimCalorimetry/EcalSimProducers/
+
     
+From Stefano's instructions
+
+    cp /afs/cern.ch/user/a/argiro/public/ph2Reco/EcalLiteDTUPedestalsESProducer.cc SimCalorimetry/EcalSimProducers/    
