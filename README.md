@@ -50,3 +50,32 @@ From Stefano's instructions
 
     scramv1 b -j 20
     
+
+Test
+====
+    
+    runTheMatrix.py -w upgrade -l 28234.61
+    
+    cd 28234.61_TTbar_14TeV+2026D60_ecalDevel+TTbar_14TeV_TuneCP5_GenSimHLBeamSpot14+DigiTrigger+RecoGlobal+HARVESTGlobal/
+    
+    cmsRun TTbar_14TeV_TuneCP5_cfi_GEN_SIM.py
+
+-> in step2_DIGI.py add 
+
+        process.GlobalTag.toGet = cms.VPSet(
+          cms.PSet(record = cms.string("EcalSimPulseShapeRcd"),
+            tag = cms.string("EcalSimPulseShapePhaseII"),
+            connect = cms.string("frontier://FrontierProd/CMS_CONDITIONS")
+          )
+        )
+
+        
+    cmsRun step2_DIGI.py
+    
+    cmsRun step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PAT_VALIDATION_DQM.py
+    
+    
+    
+    
+    
+    
