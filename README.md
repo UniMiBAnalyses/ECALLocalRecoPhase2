@@ -1,6 +1,13 @@
 ECAL Local reconstruction in CMSSW for Phase 2
 ====
 
+Where:
+
+    /afs/cern.ch/user/a/amassiro/work/ECAL/Phase2/CMSSW_11_2_0/src
+    
+    
+    
+    
 Instructions to install CMSSW, prepare code, make PRs, ...
 
 
@@ -40,3 +47,6 @@ Details
 From Stefano's instructions
 
     cp /afs/cern.ch/user/a/argiro/public/ph2Reco/EcalLiteDTUPedestalsESProducer.cc SimCalorimetry/EcalSimProducers/    
+
+    scramv1 b -j 20
+    
