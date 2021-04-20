@@ -5,7 +5,7 @@ Where:
 
     /afs/cern.ch/user/a/amassiro/work/ECAL/Phase2/CMSSW_11_2_0/src
     
-    
+    /home/amassiro/Cern/Code/UniMiB/ECALLocalRecoPhase2
     
     
 Instructions to install CMSSW, prepare code, make PRs, ...
@@ -77,5 +77,12 @@ Test
     
     
     
+Reconstruction step
+====
+
+    git-cms-addpkg  RecoLocalCalo/EcalRecProducers
+    git-cms-addpkg  RecoLocalCalo/EcalRecAlgos
     
+
+
     
