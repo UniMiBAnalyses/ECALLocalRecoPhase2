@@ -86,3 +86,26 @@ Reconstruction step
 
 
     
+Try simple max-amplitude algorithm.
+Then move to weights based reconstruction.
+
+
+
+To commit
+====
+
+Create a branch in:
+
+    https://github.com/UniMiBAnalyses/cmssw
+
+    BiancaPinolini-ecal-reco-phase2
+    
+    
+    
+    
+
+
+
+
+
+    
