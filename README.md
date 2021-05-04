@@ -98,7 +98,21 @@ Create a branch in:
 
     https://github.com/UniMiBAnalyses/cmssw
 
-    BiancaPinolini-ecal-reco-phase2
+    
+    
+    git remote add origin git@github.com:UniMiBAnalyses/cmssw
+
+    git fetch origin
+
+    git checkout -b  BiancaPinolini-ecal-reco-phase2
+    
+    git commit ...
+       
+    git push -u origin  BiancaPinolini-ecal-reco-phase2
+
+    
+    
+    
     
     
     
