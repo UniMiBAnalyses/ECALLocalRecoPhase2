@@ -43,7 +43,35 @@ Then make PR, into CMSSW_11_2_X :
 
     https://github.com/UniMiBAnalyses/cmssw/compare/CMSSW_11_2_X...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2-commit-unimib?expand=1
     
-Then make PR, into CMSSW_11_2_X in official cmssw:
+Then make PR, into CMSSW_11_2_X in official cmssw (from a recent night built release):
 
-    https://github.com/cms-sw/cmssw/compare/master...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2-commit-unimib?expand=1
+
+    cd /afs/cern.ch/user/a/amassiro/work/ECAL/Phase2/ToCommit
+    cmsrel CMSSW_12_0_X_2021-07-13-2300
+    cd CMSSW_12_0_X_2021-07-13-2300/src/
+    cmsenv
+    git cms-init
+    
+    git remote add origin git@github.com:UniMiBAnalyses/cmssw
+
+    git fetch origin
+
+    git checkout -b  BiancaPinolini-ecal-reco-phase2-12_0
+       
+    git-cms-addpkg  RecoLocalCalo/EcalRecProducers
+    git-cms-addpkg  RecoLocalCalo/EcalRecAlgos
+    
+
+    // make changes, add, commit and push
+
+    git add ...
+    
+    git commit ...
+    
+    git push -u origin  BiancaPinolini-ecal-reco-phase2-12_0
+
+    
+    // then ...    
+    
+    https://github.com/cms-sw/cmssw/compare/master...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2?expand=1
     
