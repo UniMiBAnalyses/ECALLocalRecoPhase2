@@ -45,5 +45,5 @@ Then make PR, into CMSSW_11_2_X :
     
 Then make PR, into CMSSW_11_2_X in official cmssw:
 
-    https://github.com/cms-sw/cmssw/compare/CMSSW_11_2_X...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2-commit-unimib?expand=1
+    https://github.com/cms-sw/cmssw/compare/master...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2-commit-unimib?expand=1
     
