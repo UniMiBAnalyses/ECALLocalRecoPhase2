@@ -56,7 +56,7 @@ Then make PR, into CMSSW_11_2_X in official cmssw (from a recent night built rel
 
     git fetch origin
 
-    git checkout -b  BiancaPinolini-ecal-reco-phase2-12_0
+    git checkout -b  BiancaPinolini-Ecal-reco-phase2-12_0
        
     git-cms-addpkg  RecoLocalCalo/EcalRecProducers
     git-cms-addpkg  RecoLocalCalo/EcalRecAlgos
@@ -68,10 +68,10 @@ Then make PR, into CMSSW_11_2_X in official cmssw (from a recent night built rel
     
     git commit ...
     
-    git push -u origin  BiancaPinolini-ecal-reco-phase2-12_0
+    git push -u origin  BiancaPinolini-Ecal-reco-phase2-12_0
 
     
     // then ...    
     
-    https://github.com/cms-sw/cmssw/compare/master...UniMiBAnalyses:BiancaPinolini-ecal-reco-phase2?expand=1
+    https://github.com/cms-sw/cmssw/compare/master...UniMiBAnalyses:BiancaPinolini-Ecal-reco-phase2?expand=1
     
